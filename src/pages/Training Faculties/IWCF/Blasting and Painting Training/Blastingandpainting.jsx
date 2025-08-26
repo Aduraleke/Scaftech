@@ -37,7 +37,7 @@ const BlastingandPainting = () => {
           to paint mixing, application, and inspection, this comprehensive
           course ensures your team works to international surface protection
           standards safely, efficiently, and with lasting results, reflecting
-          Scaftech Engineering Services’ commitment to quality and safety.
+          Scaftech Engineering Services’ commitment to quality and safety
         </p>
       </section>
 

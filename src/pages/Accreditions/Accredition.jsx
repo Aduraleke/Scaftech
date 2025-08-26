@@ -14,7 +14,7 @@ const logos = [
 
 const Accredition = () => {
   return (
-    <section className="bg-[#0a192f] pt-16 pb-33 px-6 flex flex-col">
+    <section className="bg-[#0a192f] pt-16 pb-72 px-6 flex flex-col">
       {/* Heading */}
       <h2 className="text-center font-bold text-3xl text-[#07bc0c] mb-4">
         ACCREDITATIONS & CERTIFICATION

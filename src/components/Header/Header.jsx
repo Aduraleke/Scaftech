@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import "./style.css";
+import "./Style.css";
 
 const Header = () => {
   const [activeIndex, setActiveIndex] = useState(0);

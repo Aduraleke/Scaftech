@@ -11,7 +11,6 @@ import Marquee from "react-fast-marquee";
 import Slidder from "../Slidder/Slidder";
 import AccreditationSlider from "../components/AccreditationSlider";
 
-
 const Home = () => {
   const stats = [
     { number: "500+", label: "GRADUATES PLACED" },
@@ -41,7 +40,6 @@ const Home = () => {
     },
   ];
 
-
   return (
     <div className="overflow-hidden">
       <Header />
@@ -49,8 +47,8 @@ const Home = () => {
       <div
         className="
                 bg-[#0a192f] text-white py-12 px-6 text-center
-                bg-[url('/images/mobile-pic.jpg')] bg-cover bg-center
-                sm:bg-[url('/images/desktop-pic.jpg')]
+ bg-cover bg-center
+
               "
       >
         <h2 className="text-2xl md:text-3xl font-bold text-green-400">
@@ -82,8 +80,8 @@ const Home = () => {
       <div
         className="
                 bg-black py-10 
-                bg-[url('/images/mobile-pic.jpg')] bg-cover bg-center
-                sm:bg-[url('/images/desktop-pic.jpg')]
+ bg-cover bg-center
+
               "
       >
         <div className="max-w-6xl mx-auto px-4">
@@ -105,8 +103,8 @@ const Home = () => {
       <section
         className="
             bg-[#ffffff] px-8 py-8 
-            bg-[url('/images/mobile-pic.jpg')] bg-cover bg-center
-            sm:bg-[url('/images/desktop-pic.jpg')]
+ bg-cover bg-center
+
           "
       >
         <Marquee speed={80} gradient={false} autoFill={true} direction="left">
