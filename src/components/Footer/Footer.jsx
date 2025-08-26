@@ -161,6 +161,14 @@ const Footer = () => {
                   Terms of Service
                 </a>
               </li>
+              <li>
+                <a
+                  href="/cookies-policy"
+                  className="hover:text-[#07bc0c] transition-colors"
+                >
+                  Cookies Policy
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -236,6 +244,12 @@ const Footer = () => {
               className="hover:text-[#07bc0c] transition-colors"
             >
               Terms & Conditions
+            </a>
+            <a
+              href="/cookies-policy"
+              className="hover:text-[#07bc0c] transition-colors"
+            >
+              Cookies Policy
             </a>
           </div>
         </div>

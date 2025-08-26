@@ -28,6 +28,7 @@ import TermsofServices from "./pages/Terms of Services/termsofservices.jsx";
 import PrivacyPolicy from "./pages/Privacy Policy/privacypolicy.jsx";
 
 import CourseTemplate from "./components/CourseTemplate/Coursetemplate.js";
+import CookiesPolicy from "./pages/Cookies Policy/CookiesPolicy.jsx";
 
 // Router setup
 const router = createBrowserRouter(
@@ -53,6 +54,7 @@ const router = createBrowserRouter(
       {/* Policies */}
       <Route path="terms-of-services" element={<TermsofServices />} />
       <Route path="privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="cookies-policy" element={<CookiesPolicy/>} />
     </Route>
   )
 );
