@@ -1,0 +1,20 @@
+.eyebrow, .rich-text .eyebrow {
+    font-family: EMprint-Semibold, Univers Next W23 Bold, Tahoma W01 Bold, Saral W60 Bold, AxisStd-Medium, MHei HK Bold, MHei PRC Bold, Ergo LT W01 Demi, YDGothic_140 Pro, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #333;
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    letter-spacing: .0625rem;
+    text-transform: uppercase;
+}
+
+.swiper_parent_div {
+    width: -webkit-fill-available;
+}
+
+.swier_image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
