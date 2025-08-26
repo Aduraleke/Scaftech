@@ -24,8 +24,8 @@ import OnlineCourses from "./pages/Online/Online_Courses/OnlineCourses.jsx";
 import FreeResources from "./pages/Online/Free_Resourses/FreeResources.jsx";
 
 // Policies
-import TermsofServices from "./pages/Training Faculties/Terms of Services/termsofservices.jsx";
-import PrivacyPolicy from "./pages/Training Faculties/Privacy Policy/privacypolicy.jsx";
+import TermsofServices from "./pages/Terms of Services/termsofservices.jsx";
+import PrivacyPolicy from "./pages/Privacy Policy/privacypolicy.jsx";
 
 import CourseTemplate from "./components/CourseTemplate/Coursetemplate.js";
 
