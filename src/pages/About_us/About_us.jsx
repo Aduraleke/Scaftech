@@ -90,7 +90,7 @@ const certificates = [
             alt="Who We Are"
           />
         </div>
-        <div className="flex-1 text-center lg:text-left">
+        <div className="flex-1 text-justify lg:text-left">
           <h2 className="text-3xl font-bold text-[#07bc0c] mb-4">Who We Are</h2>
           <p className="text-gray-300 mb-3 leading-relaxed">
             We are a leading provider of specialized industrial training,

@@ -1,5 +1,5 @@
 const logos = [
-  { src: "/images/gallery/Scaftech-logo.jpg", alt: "Scaftech" },
+
   { src: "/images/opito-1.jpg", alt: "Opito" },
   { src: "/images/IOSH-2.png", alt: "IOSH" },
   { src: "/images/NPORS-3.png", alt: "NPORS" },
@@ -14,24 +14,24 @@ const logos = [
 
 const Accredition = () => {
   return (
-    <section className="bg-[#0a192f] pt-16 pb-72 px-6 flex flex-col">
+    <section className="bg-[#0a192f] pt-16  px-6 flex flex-col lg:min-h-screen">
       {/* Heading */}
       <h2 className="text-center font-bold text-3xl text-[#07bc0c] mb-4">
         ACCREDITATIONS & CERTIFICATION
       </h2>
 
       {/* Intro */}
-      <p className="text-center text-white text-sm sm:text-base max-w-2xl mx-auto mb-2">
+      <p className=" text-white text-sm sm:text-base max-w-2xl mx-auto mb-2 text-justify">
         Our training programs are recognized and accredited by leading
         organizations, including OSHA and the Federal Ministry of Labour (FML).
       </p>
-      <p className="text-center text-white text-sm sm:text-base max-w-3xl mx-auto mb-12">
+      <p className="text-justify text-white text-sm sm:text-base max-w-2xl mx-auto mb-12">
         We maintain the highest standards of quality and safety, ensuring that
         our graduates are well-prepared for success in their careers.
       </p>
 
       {/* Logos Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 place-items-center">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 place-items-center mb-24 lg:mx-16">
         {logos.map((logo, index) => (
           <div
             key={index}

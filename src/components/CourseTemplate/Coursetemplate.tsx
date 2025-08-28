@@ -31,6 +31,7 @@ const CourseTemplate = () => {
           src={course.heroImage}
           alt={course.title}
         />
+        <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition duration-300" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-5">
           <h1 className="text-3xl md:text-5xl font-bold">{course.title}</h1>
           <p className="mt-4 text-base md:text-lg">

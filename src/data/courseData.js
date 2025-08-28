@@ -857,7 +857,7 @@ const coursesData = [
     path: "rigger",
     title: "RIGGER TRAINING",
     slogan: "Trained to Deliver",
-    heroImage: "/lift-oprate-2.jpg",
+    heroImage: "/lift-opreate-2.jpg",
     overview:
       "Scaftech Engineering Services’ Rigger Training equips participants with the essential skills and safety awareness required to prepare, secure, and move heavy loads using advanced lifting equipment. Through our expertly designed program, participants will master rigging techniques, equipment selection, load estimation, signaling, and coordination — all aligned with international lifting and safety standards.",
     prerequisites: {

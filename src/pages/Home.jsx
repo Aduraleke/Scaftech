@@ -1,8 +1,12 @@
 import Header from "../components/Header/Header";
-import PublicRoundedIcon from "@mui/icons-material/PublicRounded";
-import KeyOffRoundedIcon from "@mui/icons-material/KeyOffRounded";
-import GroupAddSharpIcon from "@mui/icons-material/GroupAddSharp";
 import { motion } from "framer-motion";
+import {
+  trainings,
+  stats,
+  latestNews,
+  features,
+  cards,
+} from "../data/homePageData";
 import Imageslider from "../components/Imageslider";
 import "./style.css";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
@@ -10,36 +14,18 @@ import PinDropIcon from "@mui/icons-material/PinDrop";
 import Marquee from "react-fast-marquee";
 import Slidder from "../Slidder/Slidder";
 import AccreditationSlider from "../components/AccreditationSlider";
+import PublicRoundedIcon from "@mui/icons-material/PublicRounded";
+import KeyOffRoundedIcon from "@mui/icons-material/KeyOffRounded";
+import GroupAddSharpIcon from "@mui/icons-material/GroupAddSharp";
+import React from "react";
 
 const Home = () => {
-  const stats = [
-    { number: "500+", label: "GRADUATES PLACED" },
-    { number: "15+", label: "YEARS EXPERIENCE" },
-    { number: "98%", label: "SUCCESS RATE" },
-    { number: "50+", label: "INDUSTRY PARTNERS" },
-  ];
 
-  const trainings = [
-    {
-      bg: "/Scaftechfork-7.jpg",
-      title: "System Audit Training",
-      location: "Lagos",
-      date: "February 10, 2025",
-    },
-    {
-      bg: "/Scaftechfork-3.jpg",
-      title: "Mobile Elevated Training",
-      location: "Port Harcourt",
-      date: "March 5, 2025",
-    },
-    {
-      bg: "/Scaftechfork-5.jpg",
-      title: "Ergonomics Training",
-      location: "Abuja",
-      date: "April 12, 2025",
-    },
-  ];
-
+  const icons = {
+    PublicRoundedIcon,
+    KeyOffRoundedIcon,
+    GroupAddSharpIcon,
+  };
   return (
     <div className="overflow-hidden">
       <Header />
@@ -186,53 +172,23 @@ const Home = () => {
 
         {/* Cards */}
         <div className="flex flex-col sm:flex-row flex-wrap gap-8 justify-center px-4">
-          {/* Card 1 */}
-          <div
-            className="relative w-full sm:w-[45%] lg:w-[30%] h-96 rounded-xl overflow-hidden cursor-pointer transform transition hover:scale-105"
-            style={{ backgroundImage: `url('/scaftek-fold-2.jpg')` }}
-          >
-            <div className="absolute inset-0 bg-[#07bc0c]/20 opacity-0 hover:opacity-50 transition-opacity"></div>
-            <div className="absolute bottom-6 left-6 bg-white bg-opacity-90 p-6 rounded-lg shadow-lg max-w-sm">
-              <a href="/Scaffold">
-                <h2 className="text-2xl font-bold mb-2 text-[#0a192f]">
-                  Scaffold Training Courses
-                </h2>
-                <p className="text-sm text-[#0a192f]">23 Courses</p>
+          {cards.map((card, idx) => (
+            <div
+              key={idx}
+              className="relative w-full sm:w-[45%] lg:w-[30%] h-96 rounded-xl overflow-hidden cursor-pointer transform transition hover:scale-105"
+              style={{ backgroundImage: `url(${card.bg})` }}
+            >
+              <a href={card.path}>
+                <div className="absolute inset-0 bg-[#07bc0c]/20 opacity-0 hover:opacity-50 transition-opacity"></div>
+                <div className="absolute bottom-6 left-6 bg-white bg-opacity-90 p-6 rounded-lg shadow-lg max-w-sm">
+                  <h2 className="text-2xl font-bold mb-2 text-[#0a192f]">
+                    {card.title}
+                  </h2>
+                  <p className="text-sm text-[#0a192f]">{card.courseNo}</p>
+                </div>
               </a>
             </div>
-          </div>
-
-          {/* Card 2 */}
-          <div
-            className="relative w-full sm:w-[45%] lg:w-[30%] h-96 rounded-xl overflow-hidden cursor-pointer transform transition hover:scale-105"
-            style={{ backgroundImage: `url('/hightension.jpg')` }}
-          >
-            <div className="absolute inset-0 bg-[#07bc0c]/20 opacity-0 hover:opacity-50 transition-opacity"></div>
-            <div className="absolute bottom-6 left-6 bg-white bg-opacity-90 p-6 rounded-lg shadow-lg max-w-sm">
-              <a href="/towercrane">
-                <h2 className="text-2xl font-bold mb-2 text-[#0a192f]">
-                  Tower Crane Training
-                </h2>
-                <p className="text-sm text-[#0a192f]">3 Courses</p>
-              </a>
-            </div>
-          </div>
-
-          {/* Card 3 */}
-          <div
-            className="relative w-full sm:w-[45%] lg:w-[30%] h-96 rounded-xl overflow-hidden cursor-pointer transform transition hover:scale-105"
-            style={{ backgroundImage: `url('/ndt-3.jpg')` }}
-          >
-            <div className="absolute inset-0 bg-[#07bc0c]/20 opacity-0 hover:opacity-50 transition-opacity"></div>
-            <div className="absolute bottom-6 left-6 bg-white bg-opacity-90 p-6 rounded-lg shadow-lg max-w-sm">
-              <a href="/NDT">
-                <h2 className="text-2xl font-bold mb-2 text-[#0a192f]">
-                  ASNT NDT Inspection
-                </h2>
-                <p className="text-sm text-[#0a192f]">6 Courses</p>
-              </a>
-            </div>
-          </div>
+          ))}
         </div>
       </section>
 
@@ -267,29 +223,13 @@ const Home = () => {
 
         {/* Feature Cards */}
         <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
-          {[
-            {
-              icon: <PublicRoundedIcon className="text-4xl text-[#07bc0c]" />,
-              title: "Industry Recognized Certifications",
-              desc: "We are accredited by recognized bodies to train, assess, and certify personnel in the oil and gas industry.",
-            },
-            {
-              icon: <KeyOffRoundedIcon className="text-4xl text-[#07bc0c]" />,
-              title: "Hands-on Practical Training",
-              desc: "We prioritize hands-on learning to prepare students for real-world scenarios, making them job-ready from day one.",
-            },
-            {
-              icon: <GroupAddSharpIcon className="text-4xl text-[#07bc0c]" />,
-              title: "Certified & Experienced Instructors",
-              desc: "Our trainings are led by certified and highly experienced instructors with years of industry expertise.",
-            },
-          ].map((item, idx) => (
+          {features.map((item, idx) => (
             <div
               key={idx}
               className="bg-[#fff] rounded-2xl p-6 shadow-md text-center text-[#0a192f] 
                    hover:bg-[#07bc0c] hover:text-white transition-all duration-300 hover:scale-105"
             >
-              <div className="flex justify-center mb-4">{item.icon}</div>
+              <div className="flex justify-center mb-4 text-4xl text-[#07bc0c] hover:text-[#fff]">{item.icon && React.createElement(icons[item.icon])}</div>
               <h2 className="font-bold text-lg">{item.title}</h2>
               <p className="mt-3 text-sm">{item.desc}</p>
             </div>
@@ -383,27 +323,28 @@ const Home = () => {
                 className="absolute inset-0 bg-center bg-cover"
                 style={{ backgroundImage: `url(${item.bg})` }}
               />
+              <a href={item.path}>
+                {/* Overlay */}
+                <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition duration-300" />
 
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition duration-300" />
-
-              {/* Info Panel */}
-              <div className="absolute bottom-0 w-full p-6 bg-gradient-to-t from-black/80 to-transparent text-white">
-                <p className="font-medium mb-1 flex items-center gap-2 text-sm sm:text-base">
-                  <WorkOutlineIcon
-                    className="text-[#07bc0c]"
-                    fontSize="small"
-                  />{" "}
-                  {item.date}
-                </p>
-                <h2 className="text-xl sm:text-2xl font-semibold mb-1">
-                  {item.title}
-                </h2>
-                <p className="flex items-center gap-2 text-sm sm:text-base">
-                  <PinDropIcon className="text-[#07bc0c]" fontSize="small" />{" "}
-                  {item.location}
-                </p>
-              </div>
+                {/* Info Panel */}
+                <div className="absolute bottom-0 w-full p-6 bg-gradient-to-t from-black/80 to-transparent text-white">
+                  <p className="font-medium mb-1 flex items-center gap-2 text-sm sm:text-base">
+                    <WorkOutlineIcon
+                      className="text-[#07bc0c]"
+                      fontSize="small"
+                    />{" "}
+                    {item.date}
+                  </p>
+                  <h2 className="text-xl sm:text-2xl font-semibold mb-1">
+                    {item.title}
+                  </h2>
+                  <p className="flex items-center gap-2 text-sm sm:text-base">
+                    <PinDropIcon className="text-[#07bc0c]" fontSize="small" />{" "}
+                    {item.location}
+                  </p>
+                </div>
+              </a>
             </motion.div>
           ))}
         </div>
@@ -462,39 +403,7 @@ const Home = () => {
 
         {/* News Grid */}
         <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {[
-            {
-              img: "/ndt-5.jpg",
-              category: "Non-Destructive Testing",
-              title: "NDT Career Guide: Explore Industry Opportunities",
-              date: "February 4, 2025",
-            },
-            {
-              img: "/lift-2.jpg",
-              category: "Training",
-              title:
-                "Master the Art of Lifting with Scaftech Appointed Person for Lifting Operations Training",
-              date: "January 24, 2025",
-            },
-            {
-              img: "/safetyman-2.jpg",
-              category: "Health and Safety",
-              title: "The Heimlich Maneuver: A Life-Saving Skill To Rescue",
-              date: "January 14, 2025",
-            },
-            {
-              img: "/lifting-4.jpg",
-              category: "Training",
-              title: "Master Mobile Crane Operations with Scaftech",
-              date: "December 20, 2024",
-            },
-            {
-              img: "/lifting-5.jpg",
-              category: "Training",
-              title: "Standard Best Practices For Rope Access Operations",
-              date: "December 6, 2024",
-            },
-          ].map((news, idx) => (
+          {latestNews.map((news, idx) => (
             <div
               key={idx}
               className="bg-[#0a192f] rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 group"

@@ -29,7 +29,7 @@ const Nav = () => {
       </Link>
 
       {/* Desktop Navigation */}
-      <ul className="hidden md:flex gap-6 items-center text-sm md:text-base font-medium">
+      <ul className="hidden md:flex gap-6 items-center text-sm md:text-sm font-medium">
         {navlinks.map(({ label, link }) => (
           <li key={link}>
             <Link
