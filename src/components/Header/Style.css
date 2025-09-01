@@ -323,3 +323,49 @@ header a{
         font-size: 30px;
     }
 }
+
+/* Better responsive typography */
+@media screen and (max-width: 768px) {
+  .carousel .list .item .content {
+    max-width: 90%;
+    text-align: center;
+    padding: 0 1rem;
+    top: 25%;
+  }
+
+  .carousel .list .item .content h1 {
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+
+  .carousel .list .item .content .des {
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+  }
+
+  .carousel .list .item .content a {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+  }
+}
+
+/* Extra small screens */
+@media screen and (max-width: 480px) {
+  .carousel .list .item .content {
+    top: 22%;
+  }
+
+  .carousel .list .item .content h1 {
+    font-size: 1.4rem;
+  }
+
+  .carousel .list .item .content .des {
+    font-size: 0.75rem;
+  }
+
+  .carousel .list .item .content a {
+    font-size: 0.8rem;
+    padding: 0.45rem 0.9rem;
+  }
+}
