@@ -13,7 +13,7 @@ const trainingCourses = [
   { path: "osha", name: "OSHA" },
   { path: "tower-crane", name: "Tower Crane" },
   { path: "mobile-elevated", name: "Mobile Elevated Work Platform" },
-  { path: "fire-warden", name: "Fire Warden" },
+  { path: "ptw", name: "PTW System Training" },
   { path: "rigger", name: "Rigger" },
   { path: "lifting-specialist", name: "Lifting Specialist" },
   { path: "ndt", name: "NDT" },
@@ -27,7 +27,7 @@ const trainingCourses = [
   { path: "confined-space", name: "Confined Space" },
   { path: "skilled-operation", name: "Skilled Operation" },
   { path: "customized", name: "Customized Training" },
-  { path: "lifting-plan", name: "Lifting Plan" },
+  { path: "lifting-training", name: "Lifting Training" },
   { path: "welding", name: "Welding Training" },
 ];
 

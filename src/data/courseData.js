@@ -2,7 +2,7 @@ const coursesData = [
   {
     path: "blasting-painting",
     title: "Blasting & Painting Training",
-    slogan: "Trained Hands. Flawless Surfaces. Certified Excellence",
+    
     heroImage: "/lifting-2.jpg",
     overview:
       "Scaftech Engineering Services’ Blasting and Painting Training delivers the practical skills and safety knowledge required for surface preparation and industrial coating. From abrasive blasting techniques to paint mixing, application, and inspection, this comprehensive course ensures your team works to international surface protection standards safely, efficiently, and with lasting results, reflecting Scaftech Engineering Services’ commitment to quality and safety.",
@@ -47,7 +47,7 @@ const coursesData = [
   {
     path: "confined-space",
     title: "Confined Space and WAH Training",
-    slogan: "Confined Space. Unlimited Risks. Certified Training is the Key",
+    
     heroImage: "/hydro-2.jpg",
     overview:
       "Scaftech Engineering Services’ Confined Space Training provides critical knowledge and hands-on skills for safely entering, working, and exiting confined spaces. This expertly designed course addresses hazard recognition, atmospheric testing, permit-to-work systems, emergency protocols, and proper use of PPE and rescue equipment, ensuring compliance, competence, and confidence in high-risk environments.",
@@ -100,7 +100,7 @@ const coursesData = [
   {
     path: "customized",
     title: "Customized Training (According to Client Specification)",
-    slogan: "Tailored Training Solutions. Customized Programs for Your Needs.",
+    
     heroImage: "/hydro-4.jpg",
     overview:
       "Scaftech Engineering Services’ Customized Training is a fully adaptable program designed to meet specific client goals, worksite conditions, compliance standards, and workforce gaps. From safety and technical skills to leadership and compliance, this solution-based training is built around your company’s real needs, ensuring maximum relevance, engagement, and ROI.",
@@ -147,7 +147,7 @@ const coursesData = [
   {
     path: "defensive-driving",
     title: "Defensive Driving & Hazard Awareness Training",
-    slogan: "Hazard Awareness Ensures Safety",
+    
     heroImage: "/ScafIos-4.jpg",
     overview:
       "Scaftech Engineering Services’ Defensive Driving & Hazard Awareness Training empowers drivers with proactive driving techniques and sharp situational awareness to minimize risks, avoid collisions, and respond effectively to road hazards. This program enhances driver behavior, promotes a road safety culture, and reduces accidents, downtime, and liability — aligning with Scaftech Engineering Services’ commitment to safety excellence.",
@@ -202,7 +202,7 @@ const coursesData = [
   {
     path: "equipment-operation",
     title: "Equipment Operation & Maintenance Training",
-    slogan: "Reduce Downtime & Increase Efficiency",
+    
     heroImage: "/lift-materia-1.jpg",
     overview:
       "Scaftech Engineering Services’ Equipment Operation and Maintenance Training equips participants with the technical know-how and hands-on skills to safely operate and maintain a wide range of industrial and site equipment. This program emphasizes efficient performance, daily inspections, troubleshooting, and preventive maintenance—minimizing downtime, avoiding costly repairs, and ensuring operational excellence.",
@@ -251,9 +251,9 @@ const coursesData = [
   },
 
   {
-    path: "fire-warden",
+    path: "ptw",
     title: "Permit-to-Work System Training",
-    slogan: "Right procedures deliver safety",
+    
     heroImage: "/Permit-work-img.jpg",
     overview:
       "The Permit-to-Work (PTW) System, offered by Scaftech Engineering Services, is a vital safety mechanism designed to ensure high-risk tasks are performed safely and systematically. This training equips participants with the knowledge and skills to initiate, manage, and audit PTW systems effectively across various industries. Key focus areas include understanding the permit lifecycle, defining roles and responsibilities, and preventing unauthorized or unsafe work practices.",
@@ -308,7 +308,7 @@ const coursesData = [
   {
     path: "health-safety",
     title: "Health & Safety Training",
-    slogan: "Safety is Non-Negotiable with Scaftech Engineering Services",
+    
     heroImage: "/safetyman-1.jpg",
     overview:
       "Scaftech Engineering Services’ Health and Safety Training empowers your workforce to identify, control, and prevent workplace hazards. This comprehensive program promotes a safety-first culture, ensures compliance with industry regulations, and reduces accidents, injuries, and downtime because safe workers mean productive workers, reflecting Scaftech Engineering Services’ commitment to workplace safety and excellence.",
@@ -366,7 +366,7 @@ const coursesData = [
   {
     path: "heavy-equipment",
     title: "Heavy Equipment Training",
-    slogan: "Healthy Equipment Increases Safety",
+    
     heroImage: "/lift-2.jpg",
     overview:
       "Scaftech Engineering Services’ Heavy Equipment Training equips operators with the technical skills, safety awareness, and operational discipline required to handle machinery such as excavators, bulldozers, graders, loaders, and backhoes. This comprehensive training blends hands-on field experience with operational theory, ensuring efficiency, precision, and safety on every job site.",
@@ -421,7 +421,7 @@ const coursesData = [
   {
     path: "leadership-accountability",
     title: "Leadership & Accountability Training",
-    slogan: "Reliable Leaders Build Global Leaders",
+    
     heroImage: "/scafIos-5.jpg",
     overview:
       "Scaftech Engineering Services’ Leadership and Accountability Training is designed to build effective, responsible, and empowered leaders at all organizational levels. This course focuses on decision-making, ownership, team dynamics, conflict resolution, and performance culture, empowering participants to lead with purpose and hold themselves and others accountable for results.",
@@ -474,7 +474,7 @@ const coursesData = [
   {
     path: "lifting-operation",
     title: "Lifting Operation Training & Basic Rigger",
-    slogan: "Lift Safe. Lift Smart. Lift Right.",
+    
     heroImage: "/lifting-4.jpg",
     overview:
       "Scaftech Engineering Services’ Lifting Operations Training equips personnel with the skills, knowledge, and awareness to plan, supervise, and execute lifting tasks safely and efficiently. This comprehensive program focuses on lifting gear inspection, load calculation, communication signals, and legal compliance, minimizing the risk of accidents and equipment failure in high-risk environments while upholding Scaftech Engineering Services’ commitment to safety and excellence.",
@@ -523,9 +523,9 @@ const coursesData = [
   },
 
   {
-    path: "lifting-plan",
-    title: "Lifting Plan",
-    slogan: "Building with Trust and Unity",
+    path: "lifting-training",
+    title: "Lifting Training",
+    
     heroImage: "/hydro-8.jpg",
     overview:
       "Scaftech Engineering Services’ Scaffold Training equips workers with knowledge and practical skills to safely erect, inspect, and dismantle scaffolding in line with industry standards. Emphasis is on stability, load capacity, fall protection, and hazard prevention, ensuring zero compromise on safety when working at height.",
@@ -578,7 +578,7 @@ const coursesData = [
   {
     path: "mental-readiness",
     title: "Mental Readiness & Ergonomics Training",
-    slogan: "Hazard Awareness Ensures Safety",
+    
     heroImage: "/scaftech-hire.jpg",
     overview:
       "Scaftech Engineering Services’ Mental Readiness & Ergonomics Training equips workers with the psychological resilience and physical awareness needed to perform safely, efficiently, and sustainably. This expertly designed program combines mental alertness strategies, stress management, and ergonomic best practices to reduce fatigue, boost focus, and prevent musculoskeletal injuries and burnout, ensuring a healthier and more productive workforce.",
@@ -631,7 +631,7 @@ const coursesData = [
   {
     path: "mobile-elevated",
     title: "Mobile Elevated Work Platform (MEWP) Scissor Lift Training",
-    slogan: "Rise Smartly with Confidence with Scaftech",
+    
     heroImage: "/Scaftechfork-2.jpg",
     overview:
       "Scaftech Engineering Services’ MEWP Scissor Lift Training prepares operators to safely and effectively operate scissor lifts in elevated work environments. This comprehensive course covers equipment controls, stability principles, hazard recognition, fall prevention, and emergency procedures—ensuring operators meet site-specific and international safety standards upheld by Scaftech Engineering Services.",
@@ -682,7 +682,7 @@ const coursesData = [
   {
     path: "ndt",
     title: "NDT Certification – Ensuring Material Integrity",
-    slogan: "See What Others Can’t. Detect Without Damage",
+    
     heroImage: "/ndt-4.jpg",
     overview:
       "Scaftech Engineering Services’ NDT Training equips technicians with critical inspection techniques to evaluate the integrity of materials, components, or structures without causing damage. The course covers methods such as Ultrasonic Testing (UT), Radiographic Testing (RT), Penetrant Testing (PT), Magnetic Particle Testing (MT), and Visual Testing (VT), helping participants detect flaws, ensure quality, and comply with global safety and reliability standards.",
@@ -738,8 +738,8 @@ const coursesData = [
   {
     path: "osha",
     title: "WELLBEING AND MENTAL WELLNESS TRAINING",
-    slogan:
-      "Our OSHA training is fully accredited by The American Society for Non Destructive Testing (ASNT)",
+    
+
     heroImage: "/fireEquip.jpg",
     overview:
       "This training is designed to educate and empower individuals and teams to understand, manage, and improve their mental, emotional, and social wellbeing. It focuses on reducing workplace stress, enhancing emotional intelligence, building resilience, and creating a mentally supportive work culture.",
@@ -801,7 +801,7 @@ const coursesData = [
   {
     path: "inspector-training",
     title: "QA/QC INSPECTOR TRAINING",
-    slogan: "Safety is Non-Negotiable with Scaftech Engineering Services",
+    
     heroImage: "/inspect-3.jpg",
     overview:
       "Scaftech Engineering Services’ QA/QC Inspector Training prepares participants with the technical knowledge and practical tools to conduct quality inspections across engineering, manufacturing, and construction projects. From document control to visual, dimensional, and non-destructive testing, this program ensures trainees learn how to maintain standards, prevent defects, and ensure compliance with project specifications and international codes, upholding Scaftech Engineering Services’ commitment to quality excellence.",
@@ -856,7 +856,7 @@ const coursesData = [
   {
     path: "rigger",
     title: "RIGGER TRAINING",
-    slogan: "Trained to Deliver",
+    
     heroImage: "/lift-opreate-2.jpg",
     overview:
       "Scaftech Engineering Services’ Rigger Training equips participants with the essential skills and safety awareness required to prepare, secure, and move heavy loads using advanced lifting equipment. Through our expertly designed program, participants will master rigging techniques, equipment selection, load estimation, signaling, and coordination — all aligned with international lifting and safety standards.",
@@ -910,7 +910,7 @@ const coursesData = [
   {
     path: "safety",
     title: "SAFETY (HSE) TRAINING",
-    slogan: "Safety is Non-Negotiable with Scaftech Engineering Services",
+    
     heroImage: "/academy-1.jpg",
     overview:
       "Scaftech Engineering Services’ Scaffold Training equips workers with the knowledge and practical skills to safely erect, inspect, and dismantle scaffolding in line with industry standards. This comprehensive program emphasizes stability, load capacity, fall protection, and hazard prevention—ensuring zero compromise on safety when working at height.",
@@ -962,8 +962,7 @@ const coursesData = [
   {
     path: "skilled-operation",
     title: "SKILLED OPERATION AND LEADERSHIP TRAINING",
-    slogan:
-      "Master the Task. Inspire the Team. Lead the Way with Scaftech Engineering",
+    
     heroImage: "/inspector-1.jpg",
     overview:
       "Scaftech Engineering Services’ Skilled Operation and Leadership Training blends technical competence with leadership capability, transforming skilled workers into confident, safety-conscious, and performance-driven leaders. This comprehensive course equips participants with the tools to supervise teams, manage worksite dynamics, ensure compliance, and deliver operational excellence under pressure.",
@@ -1018,8 +1017,7 @@ const coursesData = [
   {
     path: "sustainable-construction",
     title: "SUSTAINABLE CONSTRUCTION MANAGEMENT TRAINING",
-    slogan:
-      "Build Greener with Scaftech Sustainable Construction Management Training",
+    
     heroImage: "/big-housing.jpg",
     overview:
       "Scaftech Engineering Services’ Sustainable Construction Management Training prepares professionals to integrate green practices, resource efficiency, and environmental compliance into construction projects. This expertly crafted course emphasizes eco-friendly materials, waste reduction, energy efficiency, and sustainable site planning—aligning your team with global environmental standards and ESG goals.",
@@ -1071,7 +1069,7 @@ const coursesData = [
   {
     path: "system-audit",
     title: "SYSTEM AUDIT & SKILLS GAP ANALYSIS TRAINING",
-    slogan: "Empower Your Team & Workplace",
+    
     heroImage: "/checking-3.jpg",
     overview:
       "Scaftech Engineering Services’ System Audit and Skills Gap Analysis Training equips professionals with the tools to assess organizational systems, audit processes, and evaluate workforce competencies. This comprehensive program focuses on identifying performance gaps, aligning skills with strategic goals, and driving continuous improvement through actionable insights, ensuring your organization thrives under Scaftech Engineering Services’ expertise.",
@@ -1125,8 +1123,8 @@ const coursesData = [
   {
     path: "tower-crane",
     title: "TOWER CRANE TRAINING",
-    slogan:
-      "Command the Heights. Operate with Confidence with Scaftech Engineering",
+    
+
     heroImage: "/hightension.jpg",
     overview:
       "Scaftech Engineering Services’ Tower Crane Training is designed to equip operators and signalers with the technical expertise and safety discipline required to operate tower cranes in high-risk environments. This comprehensive program covers crane setup, load handling, communication protocols, emergency procedures, and compliance with lifting regulations—ensuring safe, smooth, and efficient crane operations under Scaftech Engineering Services’ expert guidance.",
@@ -1177,7 +1175,7 @@ const coursesData = [
   {
     path: "welding",
     title: "WELDING TRAINING",
-    slogan: "Turn Heat into Craft. Turn Skill into Career",
+    
     heroImage: "/pipelin-1.jpg",
     overview:
       "Scaftech Engineering Services’ Fabrication/Welding Training offers hands-on, technical instruction on metal joining, cutting, shaping, and structural fabrication using industry-standard equipment and techniques. From blueprint reading to safety protocols, this comprehensive course builds skilled, job-ready welders and fabricators with strong safety and precision awareness, ensuring alignment with Scaftech Engineering Services’ commitment to excellence and safety.",
@@ -1236,7 +1234,7 @@ const coursesData = [
     path: "work-height",
     title:
       "WORK AT HEIGHT TRAINING (Scaffolding Inspector, Supervisors, Foremen)",
-    slogan: "Go Higher with All Security",
+    
     heroImage: "/roof-1.jpg",
     overview:
       "Scaftech Engineering Services’ Work at Height Training is designed to minimize risks and prevent falls when working in elevated environments. This comprehensive course provides practical skills on fall protection, hazard recognition, safe use of harnesses, ladders, scaffolds, and access equipment. It’s not just training; it’s about ensuring workers come home safe, reflecting Scaftech Engineering Services’ commitment to safety and excellence.",
@@ -1288,8 +1286,7 @@ const coursesData = [
   {
     path: "employability-skills",
     title: "EMPLOYABILITY SKILLS TRAINING",
-    slogan:
-      "Are you a fresh graduate or non-graduate aspiring to build a successful career in the Oil & Gas Industry?",
+    
     heroImage: "/jc-img2.jpg",
     overview: [
       "The Employability Skills program at JC International is tailored for fresh graduates and non-graduates who aim to build successful careers in the Oil & Gas, Marine, and Construction industries. It covers foundational skills, industry-relevant certifications, and practical training required to thrive in demanding environments.",
@@ -1330,7 +1327,7 @@ const coursesData = [
   {
     path: "lifting-specialist",
     title: "LIFTING SPECIALIST TRAINING",
-    slogan: "Mastering Lifting Plans Ensure Safety & Efficiency",
+    
     heroImage: "/lift-1.jpg",
     overview: [
       "Learn to develop and implement comprehensive lifting plans with our specialized training. The program covers risk assessment, load calculations, equipment selection, and communication protocols to ensure every lift is executed safely and efficiently.",
