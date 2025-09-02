@@ -10,7 +10,7 @@ const trainingCourses = [
   { path: "blasting-painting", name: "Blasting and Painting" },
   { path: "health-safety", name: "Health & Safety" },
   { path: "work-height", name: "Work at Height" },
-  { path: "osha", name: "OSHA" },
+  { path: "osha", name: "WellBeing And Mental Wellness" },
   { path: "tower-crane", name: "Tower Crane" },
   { path: "mobile-elevated", name: "Mobile Elevated Work Platform" },
   { path: "ptw", name: "PTW System Training" },
