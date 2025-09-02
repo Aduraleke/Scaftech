@@ -41,7 +41,7 @@ const Home = () => {
           Ready to Engineer Your Future?
         </h2>
 
-        <p className="mt-4 text-gray-300 max-w-2xl mx-auto text-sm sm:text-base">
+        <p className="mt-4 text-gray-300 max-w-2xl mx-auto text-sm sm:text-base text-justify">
           Join thousands of successful engineers who started their journey with
           Scaftech Academy. Take the first step toward mastering your craft and
           advancing your career.
@@ -197,7 +197,7 @@ const Home = () => {
           <h1>ACCREDITATIONS</h1>
         </div>
 
-        <p className="font-semibold text-sm text-gray-200 text-center">
+        <p className="font-semibold text-sm text-gray-200 justify-center flex text-justify">
           Click on any accreditation logo to find the course that best supports
           your career ambitions and certification needs.
         </p>
@@ -213,7 +213,7 @@ const Home = () => {
           <h1 className="text-3xl sm:text-4xl font-bold text-white">
             Why Choose <span className="text-[#07bc0c]">Scaftech</span>
           </h1>
-          <p className="mt-4 text-gray-300 max-w-3xl mx-auto text-sm sm:text-base">
+          <p className="mt-4 text-gray-300 max-w-3xl mx-auto text-sm sm:text-base text-justify">
             We are steadfast in our commitment to providing high-quality
             training programs that enable organizations to enhance personnel
             competence, while empowering individuals to reach their full
@@ -229,9 +229,11 @@ const Home = () => {
               className="bg-[#fff] rounded-2xl p-6 shadow-md text-center text-[#0a192f] 
                    hover:bg-[#07bc0c] hover:text-white transition-all duration-300 hover:scale-105"
             >
-              <div className="flex justify-center mb-4 text-4xl text-[#07bc0c] hover:text-[#fff]">{item.icon && React.createElement(icons[item.icon])}</div>
+              <div className="flex justify-center mb-4 text-4xl text-[#07bc0c] hover:text-[#fff]">
+                {item.icon && React.createElement(icons[item.icon])}
+              </div>
               <h2 className="font-bold text-lg">{item.title}</h2>
-              <p className="mt-3 text-sm">{item.desc}</p>
+              <p className="mt-3 text-sm text-justify">{item.desc}</p>
             </div>
           ))}
         </div>
@@ -248,12 +250,12 @@ const Home = () => {
 
           {/* Right - Text */}
           <div className="w-full lg:w-1/2 text-white">
-            <h1 className="font-extrabold text-2xl sm:text-3xl md:text-4xl leading-snug mb-6">
+            <h1 className="font-extrabold text-2xl sm:text-3xl md:text-4xl leading-snug mb-6 text-justify">
               Driving Competence and Growth in <br />
               Africa&apos;s Oil & Gas Industry <br />
               Through Specialized Training Services
             </h1>
-            <p className="text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed mb-6">
+            <p className="text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed mb-6 text-justify">
               For 23 years, Scaftech has delivered specialist training to Oil &
               Gas, Marine, and Construction industries. Our vision is to be
               Africa&apos;s leading training provider by offering high-quality
@@ -358,7 +360,7 @@ const Home = () => {
               Are You an <span className="text-[#07bc0c]">Organization?</span>
             </h1>
 
-            <p className="text-sm md:text-base text-gray-200 font-medium leading-relaxed">
+            <p className="text-sm md:text-base text-gray-200 font-medium text-justify leading-relaxed">
               We specialize in providing fully customized training programs
               designed to align with your company&apos;s unique goals,
               challenges, and operational requirements. Whether you need to
@@ -367,7 +369,7 @@ const Home = () => {
               matters most to your business.
             </p>
 
-            <p className="text-sm md:text-base text-gray-200 pt-3 font-medium leading-relaxed">
+            <p className="text-sm md:text-base text-gray-200 pt-3 font-medium leading-relaxed text-justify">
               We offer the flexibility to deliver training both on-site at your
               company location and at our own training facility.
             </p>

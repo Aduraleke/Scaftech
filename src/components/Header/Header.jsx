@@ -5,7 +5,7 @@ import "./Style.css";
 
 const Header = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const timeAutoNext = 6000;
+  const timeAutoNext = 4000;
 
   const slides = [
     {
@@ -69,7 +69,7 @@ const Header = () => {
               <div className="font-semibold text-lg md:text-2xl mt-3 tracking-wide">
                 {slide.subtitle}
               </div>
-              <p className="des mt-4 text-sm md:text-base leading-relaxed text-white/90">
+              <p className="des mt-4 text-sm md:text-base leading-relaxed text-white/90 text-justify">
                 {slide.desc}
               </p>
               <a

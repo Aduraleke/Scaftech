@@ -1,10 +1,18 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Nav from "../components/Header/Nav";
 import Footer from "../components/Footer/Footer";
 import { motion } from "framer-motion";
 import { FaWhatsapp } from "react-icons/fa";
+import { useEffect } from "react";
 
 const RootRoute = () => {
+  const { pathname } = useLocation();
+
+  // Scroll to top whenever the route changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "instant" }); // Change "smooth" if you want smooth scrolling
+  }, [pathname]);
+
   return (
     <div className="relative">
       <Nav />
