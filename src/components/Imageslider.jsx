@@ -25,15 +25,15 @@ const Imageslider = () => {
       className="swiper_parent_div"
     >
       <SwiperSlide className="swiper_slide">
-        <img className="swier_image" src="public/lift-3.jpg" alt="" />
+        <img className="swier_image" src="/lift-3.jpg" alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="swier_image" src="public/Scaftechfork-6.jpg" alt="" />
+        <img className="swier_image" src="/Scaftechfork-6.jpg" alt="" />
       </SwiperSlide>
       <SwiperSlide>
         <img
           className="swier_image"
-          src="/public/Scaftechfork-4.jpg"
+          src="/Scaftechfork-4.jpg"
           alt=""
         />
       </SwiperSlide>

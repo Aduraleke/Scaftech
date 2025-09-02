@@ -8,32 +8,32 @@ import "swiper/css/navigation";
 
 const slides = [
   {
-    image: "public/safetyman-2.jpg",
+    image: "/safetyman-2.jpg",
     title: "Health and Safety",
     description: "9 Courses to ensure a safe workplace.",
   },
   {
-    image: "public/lift-4.jpg",
+    image: "/lift-4.jpg",
     title: "Lifting Operations",
     description: "54 Courses to master lifting operations.",
   },
   {
-    image: "public/lift-2.jpg",
+    image: "/lift-2.jpg",
     title: "Work at Height",
     description: "32 Courses to work safely at height.",
   },
    {
-    image: "public/scaftek-fold-2.jpg",
+    image: "/scaftek-fold-2.jpg",
     title: "Scalffold Training courses",
     description: "23 Courses to become a certified scaffolder.",
   },
    {
-    image: "public/hydro-10.jpg",
+    image: "/hydro-10.jpg",
     title: "Tower Crane",
     description: "3 Courses to operate tower cranes safely.",
   },
    {
-    image: "public/ndt-3.jpg",
+    image: "/ndt-3.jpg",
     title: "ASNT NDT INSPECTION",
     description: "6 Courses to master NDT inspection techniques.",
   },
