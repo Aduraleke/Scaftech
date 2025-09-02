@@ -76,7 +76,7 @@ const Courses = () => {
       </section>
 
       {/* Tabs */}
-      <div className="flex justify-center space-x-6 mb-12">
+      <div className="flex justify-center space-x-6 mb-12 mx-8">
         <button
           className={`px-6 py-2 rounded-full font-semibold transition ${
             activeTab === "training"

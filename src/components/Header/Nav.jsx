@@ -108,7 +108,7 @@ const Nav = () => {
                 {navlinks.map(({ label, link }) => (
                   <li key={link}>
                     <Link
-                      href={link}
+                      to={link}
                       onClick={() => setIsSide(false)}
                       className={`transition-all duration-300 ${
                         location.pathname === link
